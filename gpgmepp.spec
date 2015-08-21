@@ -18,6 +18,7 @@ License: GPL
 Group: System/Libraries
 BuildRequires: cmake
 BuildRequires: ninja
+BuildRequires: cmake(ECM)
 BuildRequires: cmake(KF5Mime)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5Gui)
