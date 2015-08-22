@@ -23,6 +23,8 @@ BuildRequires: cmake(KF5Mime)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5Gui)
 BuildRequires: cmake(Qt5Widgets)
+BuildRequires: gpgme-devel
+BuildRequires: boost-devel
 
 %description
 C++ interface to GPG encryption
