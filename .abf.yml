@@ -1,4 +1,2 @@
-removed_sources:
-  gpgmepp-15.08.0.tar.xz: 20a3b016458ec1f09bdc064b2135407384ba7049
 sources:
-  gpgmepp-15.12.3.tar.xz: 16a5754957be7fa098c38d34a5b7ffc0664e7b7d
+  gpgmepp-16.04.0.tar.xz: 3ae86be51e70d99024eabdac52c3b82042eca467
