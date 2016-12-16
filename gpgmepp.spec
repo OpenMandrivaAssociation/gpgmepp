@@ -10,31 +10,29 @@ Version:	16.08.3
 %else
 %define ftpdir stable
 %endif
-Release:	1
+Release:	2
 Source0: http://download.kde.org/%{ftpdir}/applications/%{version}/src/%{name}-%{version}.tar.xz
 Summary: C++ interface to GPG encryption
 URL: http://kde.org/
 License: GPL
 Group: System/Libraries
-BuildRequires: cmake
-BuildRequires: ninja
 BuildRequires: cmake(ECM)
 BuildRequires: cmake(KF5Mime)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5Gui)
 BuildRequires: cmake(Qt5Widgets)
-BuildRequires: gpgme-devel
+BuildRequires: gpgme-devel >= 1.8.0-2
 BuildRequires: boost-devel
 
 %description
-C++ interface to GPG encryption
+C++ interface to GPG encryption.
 
 %package -n %{libname}
 Summary: C++ interface to GPG encryption
 Group: System/Libraries
 
 %description -n %{libname}
-C++ interface to GPG encryption
+C++ interface to GPG encryption.
 
 %package -n %{devname}
 Summary: Development files for %{name}
