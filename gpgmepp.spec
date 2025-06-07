@@ -1,8 +1,8 @@
 %define major 7
-%define libname %mklibname gpgme++
-%define devname %mklibname gpgme++ -d
+%define libname %mklibname gpgmepp
+%define devname %mklibname gpgmepp -d
 
-Name:		gpgme++
+Name:		gpgmepp
 Version:	2.0.0
 Release:	1
 Source0:	https://gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-%{version}.tar.xz
